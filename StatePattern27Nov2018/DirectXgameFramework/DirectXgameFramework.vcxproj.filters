@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>7b157b2a-1a0f-4315-b758-05896a2612af</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework Header">
+      <UniqueIdentifier>{6030d6b9-9150-49e4-8b76-e54591c106da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Source">
+      <UniqueIdentifier>{a8cab200-f929-4f63-8ab3-52da7fbc3156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{c3337387-e39d-437e-a148-d599e1bef156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2219d638-76a0-4556-a088-91b88f1283ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\dx.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Game.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Input.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\pch.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\StepTimer.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Window.h">
+      <Filter>Framework Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AnimatedTexture.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Constant.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ducking.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IState.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Jumping.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Running.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Standing.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Game.cpp">
+      <Filter>Framework Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics.cpp">
+      <Filter>Framework Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Input.cpp">
+      <Filter>Framework Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\pch.cpp">
+      <Filter>Framework Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Window.cpp">
+      <Filter>Framework Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ducking.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Jumping.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Running.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Standing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Asset\standing.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Asset\downing.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Asset\jumping.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Asset\running.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+</Project>
